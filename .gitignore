@@ -1,7 +1,10 @@
 *.exe
-.*
 *.out
 *.app
+*
+!/**/
+!*.*
+.*
 .vscode/
 .vscode/settings.json
 !.vscode/settings.json 
@@ -9,7 +12,3 @@
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history.vscode/settings.json
-Add something like
-*
-!/**/
-!*.*

@@ -1,4 +1,5 @@
 *.exe
+.*
 *.out
 *.app
 .vscode/
@@ -8,3 +9,7 @@
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history.vscode/settings.json
+Add something like
+*
+!/**/
+!*.*
